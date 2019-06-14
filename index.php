@@ -1,6 +1,11 @@
 <!-- header.phpを読み込む -->
 <?php get_header(); ?>
 
+  <!-- 犬の画像 -->
+   <div>
+   <img class="top-image" src="dog.jpg" alt="">
+   </div>
+
 <main class="latest-container">
     
     <?php if (have_posts()): ?>

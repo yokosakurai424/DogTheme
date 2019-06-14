@@ -12,17 +12,12 @@
   <div class="container">
     <header>
     <!-- header左側 -->
-    <p class="sub-title">About Dog</p>
+    <p class="title">About Dog</p>
     <!-- header右側 -->
     <div class="header-right">
       <p class="top">Top</p>
       <p class="latest">Latest</p>
       <p class="contact">Contact</p>
-
-       <!-- 犬の画像 -->
-    <div>
-    <img class="top-image" src="dog.jpg" alt="">
-    </div>
 
       <?php wp_nav_menu(
       array (

@@ -160,4 +160,13 @@ footer {
    width: 100%;
  }
 }
- 
+
+
+@media screen and (max-width:1400x) {
+.articles {
+  margin: 0px 18px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+}
